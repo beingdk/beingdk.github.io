@@ -46,6 +46,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  overflow: auto;
 }
 
 div.gallery:hover {
@@ -55,6 +56,7 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  float: right;
 }
 
 div.desc {
